@@ -7,5 +7,5 @@ module.exports = {
   },
   publicPath: process.env.NODE_ENV === 'production' 
 	? '/UNAL-DNIL-frontend/'
-	: '/'
+	: '/UNAL-DNIL-frontend'
 }
