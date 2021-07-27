@@ -5,5 +5,7 @@ module.exports = {
   devServer: {
 	  port: 8081
   },
-  publicPath: '/vue2tifycrud/'
+  publicPath: process.env.NODE_ENV === 'production' 
+	? '/UNAL-DNIL-frontend/'
+	: '/'
 }
